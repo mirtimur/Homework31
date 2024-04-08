@@ -3,5 +3,7 @@
     <entity name="Car" representedClassName="Car" syncable="YES">
         <attribute name="maxSpeed" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="weight" optional="YES" attributeType="String"/>
+        <attribute name="yearOfIssue" optional="YES" attributeType="String"/>
     </entity>
 </model>

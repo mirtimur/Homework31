@@ -14,13 +14,15 @@ class CarsManager {
         return results
     }()
     
-    func save(name: String, maxSpeed: String) {
+    func save(name: String, maxSpeed: String, weight: String, yearOfIssue: String) {
         let managedContext = self.persistentContainer.viewContext
         guard let entity = NSEntityDescription.entity(forEntityName: "Car", in: managedContext) else { return }
         
         let car = Car(entity: entity, insertInto: managedContext)
         car.name = name
         car.maxSpeed = maxSpeed
+        car.weight = weight
+        car.yearOfIssue = yearOfIssue
         saveContext()
         cars.append(car)
         
@@ -65,21 +67,18 @@ class CarsManager {
         self.saveContext()
     }
     
-    func readCoreData() {
-            let context = self.persistentContainer.viewContext
-            let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Car")
-            do {
-                let results = try context.fetch(fetchRequest)
-                for result in results as! [NSManagedObject] {
-                    guard let resultObject = result as? Car else { return }
-                    
-//                    SecondViewController.shared.carNameLabel.text = resultObject.name
-//                    SecondViewController.shared.maxSpeedLabel.text = resultObject.maxSpeed
-                    print("name - \(resultObject.name ?? "")")
-                    print("max speed - \(resultObject.maxSpeed ?? "")")
-                }
-            } catch {
-                print(error)
+     func readCoreData() -> [Car] {
+        var resultArray = [Car]()
+        let context = self.persistentContainer.viewContext
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Car")
+        do {
+            let results = try context.fetch(fetchRequest)
+            for result in results as! [Car] {
+                resultArray.append(result)
             }
+        } catch {
+            print(error)
+        }
+        return resultArray
     }
 }
