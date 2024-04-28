@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Homework31
+
+  Created by Timur Mir on 28.04.24.
+  
+*/
+"Name:" = "Модель и марка:";
+"Max speed:" = "Максимальная скорость:";
+"Year of issue:" = "Год выпуска:";
+"Weight:" = "Вес:";
+"New car" = "Новая машина";
+"Add a new car" = "Добавьте новую машину";
+"Save" = "Сохранить";
+"Cancel" = "Отмена";
+
+
+

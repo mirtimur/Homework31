@@ -11,9 +11,9 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        carNameLabel.text = "Name: \(carModel?.name ?? "")"
-        maxSpeedLabel.text = "Max speed: \(carModel?.maxSpeed ?? "") km/h"
-        yearOfIssueLabel.text = "Year of issue: \(carModel?.yearOfIssue ?? "")"
-        weightLabel.text = "Weight: \(carModel?.weight ?? "") kg"
+        carNameLabel.text =  NSLocalizedString("Name:", comment: "") + " " + (carModel?.name ?? "")
+        maxSpeedLabel.text = NSLocalizedString("Max speed:", comment: "") + " " + (carModel?.maxSpeed ?? "")
+        yearOfIssueLabel.text = NSLocalizedString("Year of issue:", comment: "") + " " + (carModel?.yearOfIssue ?? "")
+        weightLabel.text = NSLocalizedString("Weight:", comment: "") + " " + (carModel?.weight ?? "")
     }
 }

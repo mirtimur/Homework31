@@ -1,7 +1,6 @@
 import Foundation
 import CoreData
 
-
 extension Car {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Car> {

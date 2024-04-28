@@ -14,8 +14,9 @@ class ViewController: UIViewController {
     }
     
     func addAlert() {
-        let alert = UIAlertController(title: "New Car", message: "Add a new car", preferredStyle: .alert)
-        let saveAction = UIAlertAction(title: "Save", style: .default) {
+        let alert = UIAlertController(title: NSLocalizedString("New car", comment: ""), message: NSLocalizedString("Add a new car", comment: ""),
+                                      preferredStyle: .alert)
+        let saveAction = UIAlertAction(title: NSLocalizedString("Save", comment: ""), style: .default) {
             [unowned self] action in
             guard let fields = alert.textFields, fields.count == 4 else { return }
             
@@ -26,17 +27,17 @@ class ViewController: UIViewController {
             CarsManager.shared.save(name: nameToSave ?? "", maxSpeed: maxSpeedToSave ?? "", weight: weightToSave ?? "", yearOfIssue: yearOfIssueToSave ?? "")
             self.tableView.reloadData()
         }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        let cancelAction = UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel)
         alert.addTextField()
         alert.addTextField()
         alert.addTextField()
         alert.addTextField()
         guard let fields = alert.textFields, fields.count == 4 else { return }
         
-        fields[0].placeholder = "Name"
-        fields[1].placeholder = "Max speed"
-        fields[2].placeholder = "Weight"
-        fields[3].placeholder = "Year of issue"
+        fields[0].placeholder = NSLocalizedString("Name:", comment: "")
+        fields[1].placeholder = NSLocalizedString("Max speed:", comment: "")
+        fields[2].placeholder = NSLocalizedString("Year of issue:", comment: "")
+        fields[3].placeholder = NSLocalizedString("Weight:", comment: "")
         alert.addAction(saveAction)
         alert.addAction(cancelAction)
         present(alert, animated: true)
