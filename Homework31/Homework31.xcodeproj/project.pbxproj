@@ -10,9 +10,17 @@
 		AB1779BA2BB56AFD00BE3D0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1779B92BB56AFD00BE3D0E /* AppDelegate.swift */; };
 		AB1779BE2BB56AFD00BE3D0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1779BD2BB56AFD00BE3D0E /* ViewController.swift */; };
 		AB1779C12BB56AFD00BE3D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1779BF2BB56AFD00BE3D0E /* Main.storyboard */; };
-		AB1779C42BB56AFD00BE3D0E /* Homework31.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB1779C22BB56AFD00BE3D0E /* Homework31.xcdatamodeld */; };
 		AB1779C62BB56AFE00BE3D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1779C52BB56AFE00BE3D0E /* Assets.xcassets */; };
 		AB1779C92BB56AFE00BE3D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1779C72BB56AFE00BE3D0E /* LaunchScreen.storyboard */; };
+		AB1779DB2BB692D700BE3D0E /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1779D92BB692D700BE3D0E /* Car+CoreDataClass.swift */; };
+		AB1779DC2BB692D700BE3D0E /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1779DA2BB692D700BE3D0E /* Car+CoreDataProperties.swift */; };
+		AB1779DE2BB6A29F00BE3D0E /* CarsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1779DD2BB6A29F00BE3D0E /* CarsManager.swift */; };
+		AB1779E22BB95BC800BE3D0E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1779E12BB95BC800BE3D0E /* SecondViewController.swift */; };
+		ABBB0BE92BDE8A7800B10B6A /* Homework31.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABBB0BE72BDE8A7800B10B6A /* Homework31.xcdatamodeld */; };
+		ABBB0BEA2BDE8B6900B10B6A /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBB0BEC2BDE8B6900B10B6A /* SecondViewController.storyboard */; };
+		ABBB0BF22BDE8C6A00B10B6A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBB0BF42BDE8C6A00B10B6A /* Localizable.strings */; };
+		ABE13F662BC549880082B020 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ABE13F652BC549880082B020 /* Realm */; };
+		ABE13F682BC549880082B020 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ABE13F672BC549880082B020 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +28,19 @@
 		AB1779B92BB56AFD00BE3D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1779BD2BB56AFD00BE3D0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB1779C02BB56AFD00BE3D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB1779C32BB56AFD00BE3D0E /* Homework31.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homework31.xcdatamodel; sourceTree = "<group>"; };
 		AB1779C52BB56AFE00BE3D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1779C82BB56AFE00BE3D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1779CA2BB56AFE00BE3D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1779D92BB692D700BE3D0E /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AB1779DA2BB692D700BE3D0E /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AB1779DD2BB6A29F00BE3D0E /* CarsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsManager.swift; sourceTree = "<group>"; };
+		AB1779E12BB95BC800BE3D0E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ABBB0BE52BDE89E800B10B6A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		ABBB0BE62BDE89E800B10B6A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		ABBB0BE82BDE8A7800B10B6A /* Homework31.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homework31.xcdatamodel; sourceTree = "<group>"; };
+		ABBB0BEB2BDE8B6900B10B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SecondViewController.storyboard; sourceTree = "<group>"; };
+		ABBB0BEF2BDE8B8100B10B6A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/SecondViewController.strings; sourceTree = "<group>"; };
+		ABBB0BF32BDE8C6A00B10B6A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE13F682BC549880082B020 /* RealmSwift in Frameworks */,
+				ABE13F662BC549880082B020 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +75,29 @@
 		AB1779B82BB56AFD00BE3D0E /* Homework31 */ = {
 			isa = PBXGroup;
 			children = (
+				AB1779D02BB57A9B00BE3D0E /* Entitys */,
 				AB1779B92BB56AFD00BE3D0E /* AppDelegate.swift */,
 				AB1779BD2BB56AFD00BE3D0E /* ViewController.swift */,
+				AB1779E12BB95BC800BE3D0E /* SecondViewController.swift */,
+				AB1779DD2BB6A29F00BE3D0E /* CarsManager.swift */,
+				ABBB0BF42BDE8C6A00B10B6A /* Localizable.strings */,
 				AB1779BF2BB56AFD00BE3D0E /* Main.storyboard */,
+				ABBB0BEC2BDE8B6900B10B6A /* SecondViewController.storyboard */,
 				AB1779C52BB56AFE00BE3D0E /* Assets.xcassets */,
 				AB1779C72BB56AFE00BE3D0E /* LaunchScreen.storyboard */,
 				AB1779CA2BB56AFE00BE3D0E /* Info.plist */,
-				AB1779C22BB56AFD00BE3D0E /* Homework31.xcdatamodeld */,
+				ABBB0BE72BDE8A7800B10B6A /* Homework31.xcdatamodeld */,
 			);
 			path = Homework31;
+			sourceTree = "<group>";
+		};
+		AB1779D02BB57A9B00BE3D0E /* Entitys */ = {
+			isa = PBXGroup;
+			children = (
+				AB1779D92BB692D700BE3D0E /* Car+CoreDataClass.swift */,
+				AB1779DA2BB692D700BE3D0E /* Car+CoreDataProperties.swift */,
+			);
+			path = Entitys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +116,10 @@
 			dependencies = (
 			);
 			name = Homework31;
+			packageProductDependencies = (
+				ABE13F652BC549880082B020 /* Realm */,
+				ABE13F672BC549880082B020 /* RealmSwift */,
+			);
 			productName = Homework31;
 			productReference = AB1779B62BB56AFD00BE3D0E /* Homework31.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +146,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = AB1779AD2BB56AFD00BE3D0E;
+			packageReferences = (
+				ABE13F642BC549880082B020 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = AB1779B72BB56AFD00BE3D0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBB0BF22BDE8C6A00B10B6A /* Localizable.strings in Resources */,
 				AB1779C92BB56AFE00BE3D0E /* LaunchScreen.storyboard in Resources */,
+				ABBB0BEA2BDE8B6900B10B6A /* SecondViewController.storyboard in Resources */,
 				AB1779C62BB56AFE00BE3D0E /* Assets.xcassets in Resources */,
 				AB1779C12BB56AFD00BE3D0E /* Main.storyboard in Resources */,
 			);
@@ -138,9 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1779DB2BB692D700BE3D0E /* Car+CoreDataClass.swift in Sources */,
+				AB1779DC2BB692D700BE3D0E /* Car+CoreDataProperties.swift in Sources */,
+				AB1779DE2BB6A29F00BE3D0E /* CarsManager.swift in Sources */,
 				AB1779BE2BB56AFD00BE3D0E /* ViewController.swift in Sources */,
+				ABBB0BE92BDE8A7800B10B6A /* Homework31.xcdatamodeld in Sources */,
+				AB1779E22BB95BC800BE3D0E /* SecondViewController.swift in Sources */,
 				AB1779BA2BB56AFD00BE3D0E /* AppDelegate.swift in Sources */,
-				AB1779C42BB56AFD00BE3D0E /* Homework31.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +198,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AB1779C02BB56AFD00BE3D0E /* Base */,
+				ABBB0BE52BDE89E800B10B6A /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +207,26 @@
 			isa = PBXVariantGroup;
 			children = (
 				AB1779C82BB56AFE00BE3D0E /* Base */,
+				ABBB0BE62BDE89E800B10B6A /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBB0BEC2BDE8B6900B10B6A /* SecondViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBB0BEB2BDE8B6900B10B6A /* Base */,
+				ABBB0BEF2BDE8B8100B10B6A /* ru */,
+			);
+			name = SecondViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBB0BF42BDE8C6A00B10B6A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBB0BF32BDE8C6A00B10B6A /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -171,6 +237,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -234,6 +301,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -362,13 +430,37 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		ABE13F642BC549880082B020 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABE13F652BC549880082B020 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABE13F642BC549880082B020 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		ABE13F672BC549880082B020 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABE13F642BC549880082B020 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		AB1779C22BB56AFD00BE3D0E /* Homework31.xcdatamodeld */ = {
+		ABBB0BE72BDE8A7800B10B6A /* Homework31.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AB1779C32BB56AFD00BE3D0E /* Homework31.xcdatamodel */,
+				ABBB0BE82BDE8A7800B10B6A /* Homework31.xcdatamodel */,
 			);
-			currentVersion = AB1779C32BB56AFD00BE3D0E /* Homework31.xcdatamodel */;
+			currentVersion = ABBB0BE82BDE8A7800B10B6A /* Homework31.xcdatamodel */;
 			path = Homework31.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

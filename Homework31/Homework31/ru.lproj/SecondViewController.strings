@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Year of issue:"; ObjectID = "I50-UV-iZp"; */
+"I50-UV-iZp.text" = "Год выпуска:";
+
+/* Class = "UILabel"; text = "Weight:"; ObjectID = "KEG-zL-jdK"; */
+"KEG-zL-jdK.text" = "Вес:";
+
+/* Class = "UILabel"; text = "Max Speed:"; ObjectID = "UV4-su-F8y"; */
+"UV4-su-F8y.text" = "Максимальная скорость:";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "bRA-th-zoY"; */
+"bRA-th-zoY.text" = "Имя:";
